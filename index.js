@@ -34,14 +34,14 @@ program
 
       await genReport(data, cmd.output, cmd.template, cmd.theme)
     } catch (err) {
-      console.error('Failed to parse NPM Audit JSON!')
+      console.error('Failed to parse NPM Outdated JSON!')
       return process.exit(1)
     }
   })
 
 const genReport = async (
   data,
-  output = 'npm-audit.html',
+  output = 'npm-outdated.html',
   template,
   theme = 'light'
 ) => {
@@ -55,7 +55,7 @@ const genReport = async (
 
     await reporter(data, templateFile, output, theme)
 
-    console.log(`Vulnerability snapshot saved at ${output}`)
+    console.log(`Outdated dependencies snapshot saved at ${output}`)
     process.exit(0)
   } catch (err) {
     console.log('An error occurred!')

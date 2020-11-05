@@ -1,25 +1,25 @@
 {
-  "name": "npm-audit-html",
+  "name": "npm-outdated-html",
   "version": "0.0.0-development",
-  "description": "Generate a HTML report for NPM Audit",
+  "description": "Generate a HTML report for NPM Outdated",
   "main": "index.js",
   "bin": {
-    "npm-audit-html": "index.js"
+    "npm-outdated-html": "index.js"
   },
   "scripts": {
-    "test": "npm run lint && npm run audit-report && npm audit",
+    "test": "npm run lint && npm run outdated-report && npm outdated",
     "lint": "eslint '*.js' 'lib/**/*.js'",
     "lint:fix": "eslint '*.js' 'lib/**/*.js' --fix",
     "lint!": "npm run format && npm run lint:fix",
     "format": "prettier --write '*.js' 'lib/**/*.js'",
-    "audit-report": "npm audit --json | node index.js -o tests/npm-audit.html",
+    "outdated-report": "npm outdated --long --json | node index.js -o tests/npm-outdated.html",
     "cm": "git-cz",
     "pre-commit": "lint-staged",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once --pro"
   },
-  "author": "eventOne Labs <opensource@event1.io>",
-  "repository": "eventOneHQ/npm-audit-html",
+  "author": "Clément Tessier",
+  "repository": "ctessier/npm-outdated-html",
   "license": "MIT",
   "devDependencies": {
     "commitizen": "^4.0.4",
