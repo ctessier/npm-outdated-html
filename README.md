@@ -18,6 +18,7 @@
 - [Contributing](CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
+- [License & Copyright](#license_copyright)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -58,7 +59,7 @@ npm outdated --long --json | npm-outdated-html --template ./my-awesome-template.
 
 - This package is a fork from [npm-audit-html](https://github.com/eventOneHQ/npm-audit-html). Thanks [Noah Prail](https://github.com/nprail), and all the other contributors for your great work!
 
-## License & Copyright
+## License & Copyright <a name = "license_copyright"></a>
 
 [MIT](LICENSE)
 
