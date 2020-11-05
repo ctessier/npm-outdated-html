@@ -1,6 +1,6 @@
 {
   "name": "npm-outdated-html",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generate a HTML report for NPM Outdated",
   "main": "index.js",
   "bin": {
