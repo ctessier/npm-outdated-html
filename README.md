@@ -1,12 +1,13 @@
 <h1 align="center">npm-outdated-html</h1>
 
 <p align="center">
-<a href="https://github.com/ctessier/npm-outdated-html/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ctessier/npm-outdated-html.svg" alt="GitHub license"></a>
-<a href="https://www.npmjs.com/package/npm-outdated-html"><img src="https://img.shields.io/npm/v/npm-outdated-html.svg" alt="npm"></a>
 <a href="https://travis-ci.com/ctessier/npm-outdated-html"><img src="https://travis-ci.com/ctessier/npm-outdated-html.svg?branch=master" alt="Build Status"></a>
+<a href="https://www.npmjs.com/package/npm-outdated-html"><img src="https://img.shields.io/npm/v/npm-outdated-html.svg" alt="npm"></a>
+<a href="https://www.npmjs.com/package/npm-outdated-html"><img src="https://badgen.net/npm/dt/npm-outdated-html" alt="downloads"></a>
 <a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"></a>
 <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide"></a>
 <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-release"></a>
+<a href="https://github.com/ctessier/npm-outdated-html/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ctessier/npm-outdated-html.svg" alt="GitHub license"></a>
 
 </p>
 <p align="center"><b>Generate a HTML report for NPM Outdated</b></p>
